@@ -1,3 +1,6 @@
+using COMP003B.SP25.FinalProject.VillagranR.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace COMP003B.SP25.FinalProject.VillagranR
 {
     public class Program
@@ -8,6 +11,9 @@ namespace COMP003B.SP25.FinalProject.VillagranR
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
