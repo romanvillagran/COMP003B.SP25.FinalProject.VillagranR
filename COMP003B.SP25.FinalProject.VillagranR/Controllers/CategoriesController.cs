@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using COMP003B.SP25.FinalProject.VillagranR.Models;
+using COMP003B.SP25.FinalProject.VillagranR.Data;
 
 namespace COMP003B.SP25.FinalProject.VillagranR.Controllers
 {

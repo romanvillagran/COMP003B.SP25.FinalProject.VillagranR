@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace COMP003B.SP25.FinalProject.VillagranR.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250513051640_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250513054433_FixRelationships")]
+    partial class FixRelationships
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

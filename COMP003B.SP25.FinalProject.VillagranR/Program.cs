@@ -1,4 +1,4 @@
-using COMP003B.SP25.FinalProject.VillagranR.Models;
+using COMP003B.SP25.FinalProject.VillagranR.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace COMP003B.SP25.FinalProject.VillagranR
